@@ -8,7 +8,7 @@ export const DOCTORS_DATA: Doctor[] = [
     qualification: "BDS, MDS – AIIMS New Delhi",
     experience: "12 Years",
     image:
-      "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&h=600&fit=crop&crop=faces",
     rating: 4.9,
     reviewsCount: 148,
     bio: "Dr. Ananya Sharma specializes in restorative and cosmetic dentistry with a strong focus on preventive oral healthcare and smile enhancement.",
@@ -30,7 +30,7 @@ export const DOCTORS_DATA: Doctor[] = [
     qualification: "BDS, MDS Orthodontics – Manipal University",
     experience: "15 Years",
     image:
-      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=600&h=600&fit=crop&crop=faces",
     rating: 4.8,
     reviewsCount: 204,
     bio: "Dr. Rahul Verma specializes in braces, clear aligners, and smile correction for children and adults.",
@@ -46,12 +46,12 @@ export const DOCTORS_DATA: Doctor[] = [
   },
   {
     id: "doc-3",
-    name: "Dr. Rahul Nair",
+    name: "Dr. Priya Nair",
     specialty: "Pediatric Dentist",
     qualification: "BDS, MDS Pediatric Dentistry – KMC Manipal",
     experience: "8 Years",
     image:
-      "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?w=600&h=600&fit=crop&crop=faces",
     rating: 4.9,
     reviewsCount: 112,
     bio: "Dr. Priya Nair provides gentle and child-friendly dental care, helping young patients feel comfortable during every visit.",
@@ -72,7 +72,7 @@ export const DOCTORS_DATA: Doctor[] = [
     qualification: "BDS, MDS Oral Surgery – Saveetha University",
     experience: "18 Years",
     image:
-      "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1622902046580-2b47f47f5471?w=600&h=600&fit=crop&crop=faces",
     rating: 5.0,
     reviewsCount: 310,
     bio: "Dr. Arjun Patel specializes in dental implants, wisdom tooth removal, oral surgery, and full-mouth rehabilitation.",
@@ -87,6 +87,7 @@ export const DOCTORS_DATA: Doctor[] = [
     ],
   },
 ];
+
 export const SERVICES_DATA: Service[] = [
   {
     id: "srv-1",
@@ -94,7 +95,6 @@ export const SERVICES_DATA: Service[] = [
     iconName: "ClipboardCheck",
     image:
       "https://images.pexels.com/photos/3845625/pexels-photo-3845625.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Comprehensive evaluation of teeth, gums, digital X-rays, and customized preventative hygiene advice.",
     detailedDescription:
@@ -114,7 +114,6 @@ export const SERVICES_DATA: Service[] = [
     iconName: "Activity",
     image:
       "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Painless, highly advanced treatment designed to save severely decayed, damaged, or infected teeth.",
     detailedDescription:
@@ -134,7 +133,6 @@ export const SERVICES_DATA: Service[] = [
     iconName: "Sparkles",
     image:
       "https://images.pexels.com/photos/6812565/pexels-photo-6812565.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Professional in-office laser whitening designed to lift stubborn stains and brighten teeth by up to 8 shades.",
     detailedDescription:
@@ -154,11 +152,10 @@ export const SERVICES_DATA: Service[] = [
     iconName: "Layers",
     image:
       "https://images.pexels.com/photos/6627563/pexels-photo-6627563.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
-      "Modern orthodontic treatments including custom Invisalign clear aligners and sleek ceramic brackets.",
+      "Modern orthodontic treatments including custom clear aligners and sleek ceramic brackets.",
     detailedDescription:
-      "Align your teeth and perfect your bite using our advanced invisible aligners (Invisalign) or premium ceramic brackets. Customized 3D imaging allows you to preview your projected straight smile before even starting the treatment plan.",
+      "Align your teeth and perfect your bite using our advanced invisible aligners or premium ceramic brackets. Customized 3D imaging allows you to preview your projected straight smile before even starting the treatment plan.",
     duration: "Multi-session plans",
     estimatedPrice: "₹29,999 - ₹54,999",
     benefits: [
@@ -171,15 +168,14 @@ export const SERVICES_DATA: Service[] = [
   {
     id: "srv-5",
     name: "Dental Implants",
-    iconName: "ShieldAlert", // Fallback icon
+    iconName: "ShieldAlert",
     image:
       "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Lifetime permanent tooth replacement option using premium biocompatible titanium root implants.",
     detailedDescription:
       "Dental implants are the gold standard for tooth replacement. A bio-friendly titanium post is securely integrated into the jawbone, acting as a natural root, and capped with a custom-milled premium zirconia crown that perfectly mimics natural teeth.",
-    duration: "Surgical surgical phase",
+    duration: "Surgical phase + healing",
     estimatedPrice: "₹25,000 - ₹50,000",
     benefits: [
       "Looks, feels, and functions like a real tooth",
@@ -194,7 +190,6 @@ export const SERVICES_DATA: Service[] = [
     iconName: "Smile",
     image:
       "https://images.pexels.com/photos/3779705/pexels-photo-3779705.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Gentle, friendly, and protective oral healthcare designed specifically for toddlers, children, and teens.",
     detailedDescription:
@@ -214,7 +209,6 @@ export const SERVICES_DATA: Service[] = [
     iconName: "Heart",
     image:
       "https://images.pexels.com/photos/6812468/pexels-photo-6812468.jpeg?auto=compress&cs=tinysrgb&w=800",
-
     description:
       "Premium composite fillings, porcelain veneers, and full-smile makeovers to create your dream aesthetic.",
     detailedDescription:
@@ -233,33 +227,33 @@ export const SERVICES_DATA: Service[] = [
 export const TESTIMONIALS_DATA = [
   {
     id: "test-1",
-    name: "Eleanor Vance",
-    role: "Invisalign Patient",
+    name: "Ishita Malhotra",
+    role: "Clear Aligner Patient",
     content:
-      "The care and precision at BrightSmile is absolutely unmatched! Dr. Marcus Vance and his team explained every detail of my orthodontic plan. Now my teeth are perfectly straight and I can’t stop smiling!",
+      "The care and precision at BrightSmile is absolutely unmatched! Dr. Rahul Verma and his team explained every detail of my orthodontic plan. Now my teeth are perfectly straight and I can't stop smiling!",
     rating: 5,
     avatar:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80",
   },
   {
     id: "test-2",
-    name: "Michael Chen",
+    name: "Rohan Kapoor",
     role: "Dental Implant Patient",
     content:
-      "I had deep dental anxiety, but Dr. James Carter was incredibly reassuring. The dental implant procedure was completely painless, and the recovery was quick. The final crown looks just like my original tooth!",
+      "I had deep dental anxiety, but Dr. Arjun Patel was incredibly reassuring. The dental implant procedure was completely painless, and the recovery was quick. The final crown looks just like my original tooth!",
     rating: 5,
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80",
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80",
   },
   {
     id: "test-3",
-    name: "Sophia Martinez",
+    name: "Sneha Reddy",
     role: "Mother of 2 Patient",
     content:
-      "My kids actually look forward to visiting the dentist now! Dr. Elena is amazing. She sings, jokes, and explains the instruments like toys. She is the absolute best pediatric dentist in town.",
+      "My kids actually look forward to visiting the dentist now! Dr. Priya Nair is amazing. She sings, jokes, and explains the instruments like toys. She is the absolute best pediatric dentist in town.",
     rating: 5,
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150&h=150&q=80",
   },
 ];
 
@@ -268,52 +262,42 @@ export const GALLERY_DATA = [
     id: "gal-1",
     title: "Modern Clinic Lobby",
     image:
-      "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&fit=crop",
+      "https://images.pexels.com/photos/3845625/pexels-photo-3845625.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Interior",
   },
   {
     id: "gal-2",
     title: "Advanced Treatment Room",
     image:
-      "https://images.unsplash.com/photo-1588776814546-ec7e4c1b0c62?w=800&fit=crop",
+      "https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Equipment",
   },
   {
     id: "gal-3",
-
     title: "Doctor Consultation",
-
     image:
-      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
-
+      "https://images.pexels.com/photos/6812468/pexels-photo-6812468.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Team",
   },
-
   {
     id: "gal-4",
-
     title: "Comfortable Patient Chair",
-
     image:
-      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80",
-
+      "https://images.pexels.com/photos/6812565/pexels-photo-6812565.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Interior",
   },
   {
     id: "gal-5",
     title: "3D Teeth Scanning Technology",
     image:
-      "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&fit=crop",
+      "https://images.pexels.com/photos/6627563/pexels-photo-6627563.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Equipment",
   },
   {
     id: "gal-6",
-
     title: "Staff Team Members",
-
     image:
-      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
-
+      "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=800",
     category: "Team",
   },
 ];
@@ -333,21 +317,21 @@ export const FAQ_DATA = [
   },
   {
     id: "faq-3",
-    question: "Does your clinic accept insurance?",
+    question: "Does your clinic accept health insurance?",
     answer:
-      "Yes! BrightSmile Dental Care works with the vast majority of PPO insurance providers. Our dedicated clinical billing staff will directly handle all pre-authorizations and submit claims on your behalf to ensure your coverage benefits are fully maximized.",
+      "Yes! BrightSmile Dental Care works with most major health insurance providers in India, including cashless network partners. Our dedicated billing staff will directly handle all pre-authorizations and submit claims on your behalf to ensure your coverage benefits are fully maximized.",
   },
   {
     id: "faq-4",
     question: "What is the best teeth-straightening treatment for adults?",
     answer:
-      "Invisalign clear aligners are highly popular among adults due to their high transparency and removable nature. They allow you to maintain natural dietary and brushing habits. However, ceramic braces are also a fantastic option for more complex bite alignments.",
+      "Clear aligners are highly popular among adults due to their high transparency and removable nature. They allow you to maintain natural dietary and brushing habits. However, ceramic braces are also a fantastic option for more complex bite alignments.",
   },
   {
     id: "faq-5",
     question: "What should I do in case of a sudden dental emergency?",
     answer:
-      "Please call our emergency line immediately at (555) 999-0100. We reserve dedicated emergency slots every single day to provide same-day urgent care for teeth fractures, severe toothaches, or knocked-out teeth.",
+      "Please call our emergency line immediately at +91 98765 43210. We reserve dedicated emergency slots every single day to provide same-day urgent care for teeth fractures, severe toothaches, or knocked-out teeth.",
   },
 ];
 
@@ -362,7 +346,7 @@ export const CLINIC_TIMELINE = [
   {
     year: "2011",
     title: "Clinic Founded",
-    desc: "BrightSmile opened its doors with 1 dentist, 1 chair, and a big vision for patient-first care.",
+    desc: "BrightSmile opened its doors in Bengaluru with 1 dentist, 1 chair, and a big vision for patient-first care.",
   },
   {
     year: "2015",
@@ -376,23 +360,23 @@ export const CLINIC_TIMELINE = [
   },
   {
     year: "2023",
-    title: "Dr. James Carter Joins",
+    title: "Dr. Arjun Patel Joins",
     desc: "Established full surgical suite for advanced dental implantology and restorative dentistry.",
   },
 ];
 
 export const CLINIC_CERTIFICATIONS = [
   {
-    title: "American Dental Association (ADA)",
-    org: "Certified Practice Member",
+    title: "Dental Council of India (DCI)",
+    org: "Registered Practice Member",
   },
   {
-    title: "AACD Accredited Clinic",
-    org: "American Academy of Cosmetic Dentistry",
+    title: "Indian Dental Association (IDA)",
+    org: "Accredited Member Clinic",
   },
   {
-    title: "HIPAA & OSHA Gold Standard",
-    org: "Patient Safety & Privacy Certified",
+    title: "NABH Accredited Clinic",
+    org: "National Accreditation Board for Hospitals & Healthcare Providers",
   },
   {
     title: "ISO 9001 Healthcare Quality",
