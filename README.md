@@ -142,3 +142,12 @@ Add screenshots here after deployment.
 B.Tech Computer Science & Engineering
 
 Java Full Stack Developer
+# 🦷 BrightSmile Dental Care
+
+## 🌐 Live Demo
+
+https://brightsmile-dental-care-two.vercel.app
+
+## GitHub Repository
+
+https://github.com/Subhankar-Behera/brightsmile-dental-care
